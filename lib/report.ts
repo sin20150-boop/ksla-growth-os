@@ -6,7 +6,7 @@ import {
   type GrowthData,
   type MonthlyReport,
   type NutritionKey,
-} from "@/lib/types";
+} from "./types";
 
 const demandKeys = Object.keys(demandLabels) as DemandKey[];
 const nutritionKeys = Object.keys(nutritionLabels) as NutritionKey[];
