@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { generateMonthlyReport, getLatestEvaluation, getThisMonthData } from "@/lib/report";
-import { initialData } from "@/lib/sample-data";
+import { initialData } from "../lib/sample-data";
 import {
   demandLabels,
   nutritionLabels,
@@ -12,7 +12,7 @@ import {
   type MatchLog,
   type NutritionKey,
   type PracticeLog,
-} from "@/lib/types";
+} from "../lib/types";
 
 type Screen = "dashboard" | "profile" | "practice" | "match" | "report";
 
