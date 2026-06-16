@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { generateMonthlyReport, getLatestEvaluation, getThisMonthData } from "@/lib/report";
+import { generateMonthlyReport, getLatestEvaluation, getThisMonthData } from "../lib/report";
 import { initialData } from "../lib/sample-data";
 import {
   demandLabels,
