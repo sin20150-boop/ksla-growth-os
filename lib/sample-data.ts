@@ -1,4 +1,4 @@
-import type { GrowthData } from "@/lib/types";
+import type { GrowthData } from "./types";
 
 export const initialData: GrowthData = {
   profile: {
